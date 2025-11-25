@@ -52,7 +52,6 @@ namespace Lab01_03
                         ShowTeachers(personList);
                         break;
                     case "5":
-                        // OfType<T>() lọc kiểu dữ liệu trong List cha
                         Console.WriteLine($"Tổng SV: {personList.OfType<Student>().Count()}");
                         Console.WriteLine($"Tổng GV: {personList.OfType<Teacher>().Count()}");
                         break;
